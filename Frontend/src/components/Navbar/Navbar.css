@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for a nice effect */
+  height: 80px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Keeps the navbar on top when scrolling */
+}
+
+.nav-link {
+  color: #000; /* Black color for the links */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+

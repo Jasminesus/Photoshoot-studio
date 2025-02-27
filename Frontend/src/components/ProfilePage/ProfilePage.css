@@ -1,0 +1,84 @@
+/* Profile Page Section */
+.profile-page {
+    background-color: #f8f9fa; /* Light background */
+    padding: 50px 0;
+  }
+  
+  /* Container styles */
+  .profile-page .container {
+    background-color: #ffffff; /* White container background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Headings */
+  .profile-page h2 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark gray for headings */
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .profile-page h4 {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color for subheadings */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* List styles */
+  .profile-page .list-group {
+    margin-top: 20px;
+  }
+  
+  .profile-page .list-group-item {
+    background-color: #ffffff; /* Keep it white */
+    border: 1px solid #ddd; /* Subtle border for each item */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space between list items */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+  }
+  
+  /* List item hover effect */
+  .profile-page .list-group-item:hover {
+    transform: scale(1.02); /* Slightly grow on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  /* Booking details */
+  .profile-page .list-group-item h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-page .list-group-item p {
+    font-size: 1rem;
+    color: #555; /* Medium gray for text */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .profile-page .container {
+      padding: 20px;
+    }
+  
+    .profile-page h2 {
+      font-size: 2rem;
+    }
+  
+    .profile-page h4 {
+      font-size: 1.25rem;
+    }
+  
+    .profile-page .list-group-item {
+      padding: 15px;
+    }
+  
+    .profile-page .list-group-item h5 {
+      font-size: 1.15rem;
+    }
+  }
+  

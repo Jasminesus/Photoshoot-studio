@@ -1,0 +1,49 @@
+/* General Styling for the Thank You Page */
+.thank-you-container {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .thank-you-container h1 {
+    font-size: 2.5rem;
+    color: #28a745; /* Green color for success */
+    margin-bottom: 20px;
+  }
+  
+  .thank-you-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Styling for Event, Rating, and Feedback */
+  .thank-you-container p:first-of-type {
+    font-weight: bold;
+  }
+  
+  .thank-you-container p:nth-of-type(2) {
+    color: #ffcc00; /* Yellow color for the rating stars */
+    font-weight: bold;
+  }
+  
+  /* Adjustments for Mobile Devices */
+  @media (max-width: 768px) {
+    .thank-you-container {
+      padding: 30px 10px;
+    }
+  
+    .thank-you-container h1 {
+      font-size: 2rem;
+    }
+  
+    .thank-you-container p {
+      font-size: 1rem;
+    }
+  }
+  

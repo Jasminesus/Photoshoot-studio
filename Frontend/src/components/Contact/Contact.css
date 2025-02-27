@@ -1,0 +1,39 @@
+#contact {
+  background-color: #dc9c9c;
+  color: #000;
+}
+  #contact h1 {
+    text-align: center;
+    font-size: 36px; /* Optional: Adjust the font size as needed */
+    margin-bottom: 30px; /* Optional: Add some spacing below the heading */
+  }
+  #contact .container{
+    margin-top: 100px;
+  }
+  
+
+.map-container {
+  width: 100%;
+  height: 350px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  border-radius: 4px;
+  border: 1px solid #debcbc;
+}
+
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}

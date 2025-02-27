@@ -1,0 +1,33 @@
+/* EventModal.css */
+
+
+.review-form {
+  margin-top: 20px;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.review-form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.reviews-section {
+  margin-top: 20px;
+}
+
+.review {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+}
